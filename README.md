@@ -1,48 +1,74 @@
-<h2>Steps on setting up the application</h2>
+# Health and Wellness
 
-<h3>Things you should already have installed:</h3>
-<ul>
-    <li>yarn</li>
-    <li>nodejs</li>
-    <li>nodemon</li>
-    <li>localhost MongoDB connection (assuming default port is 27017)</li>
-</ul>
+---
 
-</br>
+## Table of Contents
 
-<h3>Things to setup in the local mongodb database:</h3>
+- [Description](#description)
+- [How To Use](#how-to-use)
 
-Do the following shell commands:</br>
+---
 
+## Description
 
-use health_wellness</br>
+Full-stack application that allows users to create an account, manage health reminders, and use weight tracking features. 
 
-db.createCollection("alarms")</br>
+#### Technologies
 
-db.createCollection("counters")</br>
+- MongoDB
+- Express.js
+- Node.js
+- React.js
 
-db.createCollection("items")</br>
+[Back To The Top](#health-and-wellness)
 
-db.createCollection("users")</br>
+---
 
-db.createCollection("weights")</br>
+## How To Use
 
+### Installation
 
-</br>
-
-<h3>Starting Application Locally:</h3>
-
-<please note> Open two terminals:</br>
-
-<i>Terminal 1</i>: navigate to root project directory</br>
-
-<i>Terminal 2</i>: navigate to frontend directory</br>
+#### Things you should already have installed:
+- yarn
+- nodejs
+- nodemon
+- localhost MongoDB connection (assuming default port is 27017)
 
 
-<i>Terminal 1</i>: yarn</br>
+#### Things to setup in the local mongodb database:
 
-<i>Terminal 2</i>: yarn</br>
+Do the following shell commands:
 
-<i>Terminal 1</i>: sudo npm start</br>
+> use health_wellness
 
-<i>Terminal 2</i>: sudo npm start</br>
+> db.createCollection("alarms")
+
+> db.createCollection("counters")
+
+> db.createCollection("items")
+
+> db.createCollection("users")
+
+> db.createCollection("weights")
+
+#### Starting Application Locally:
+
+Open two terminals:
+
+- Terminal 1: navigate to root project directory
+- Terminal 2: navigate to frontend directory
+
+> Terminal 1: yarn
+
+> Terminal 2: yarn
+
+> Terminal 1: sudo npm start
+
+> Terminal 2: sudo npm start
+
+
+
+
+
+
+
