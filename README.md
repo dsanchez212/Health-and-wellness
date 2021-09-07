@@ -1,44 +1,48 @@
-Steps on setting up the application.
+<h2>Steps on setting up the application.</h2>
 
-Things you should already have installed:
-- yarn
-- nodejs
-- nodemon
-- localhost MongoDB connection (assuming default port of 27017)
+<h3>Things you should already have installed:</h3>
+<ul>
+    <li>yarn</li>
+    <li>nodejs</li>
+    <li>nodemon</li>
+    <li>localhost MongoDB connection (assuming default port of 27017)</li>
+</ul>
 
-=============================================
-Things to setup in the local mongodb database
-=============================================
-Do the following shell commands:
+</br>
 
-> use health_wellness
+<h3>Things to setup in the local mongodb database</h3>
 
-> db.createCollection("alarms")
+Do the following shell commands:</br>
 
-> db.createCollection("counters")
+<i>
+    use health_wellness</br>
 
-> db.createCollection("items")
+    db.createCollection("alarms")</br>
 
-> db.createCollection("users")
+    db.createCollection("counters")</br>
 
-> db.createCollection("weights")
+    db.createCollection("items")</br>
+
+    db.createCollection("users")</br>
+
+    db.createCollection("weights")</br>
+</i>
+
+</br>
+
+<h3>Starting Local Testing!</h3>
+
+<please note> Open two terminals:</br>
+
+    <i>Terminal 1</i>: navigate to root project directory</br>
+
+    <i>Terminal 2</i>: navigate to frontend directory</br>
 
 
-=======================
-Starting Local Testing!
-=======================
+<i>Terminal 1</i>: yarn</br>
 
-<please note> open two terminals!
+<i>Terminal 2</i>: yarn</br>
 
-    <terminal one> navigate to root project directory
+<i>Terminal 1</i>: sudo npm start</br>
 
-    <terminal two> navigate to frontend directory
-
-
-<terminal one cmd> yarn
-
-<terminal two cmd> yarn
-
-<terminal one cmd> sudo npm start
-
-<terminal two cmd> sudo npm start
+<i>Terminal 2</i>: sudo npm start</br>
