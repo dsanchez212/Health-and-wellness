@@ -1,5 +1,3 @@
-
-<!---
 Steps on setting up the application.
 
 Things you should already have installed:
@@ -44,5 +42,3 @@ Starting Local Testing!
 <terminal one cmd> sudo npm start
 
 <terminal two cmd> sudo npm start
-
---->
