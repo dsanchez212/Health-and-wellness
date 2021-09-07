@@ -5,7 +5,7 @@
     <li>yarn</li>
     <li>nodejs</li>
     <li>nodemon</li>
-    <li>localhost MongoDB connection (assuming default port of 27017)</li>
+    <li>localhost MongoDB connection (assuming default port is 27017)</li>
 </ul>
 
 </br>
@@ -30,7 +30,7 @@ db.createCollection("weights")</br>
 
 </br>
 
-<h3>Starting Local Testing:</h3>
+<h3>Starting Application Locally:</h3>
 
 <please note> Open two terminals:</br>
 
