@@ -20,8 +20,6 @@ Full-stack application that allows users to create an account, manage health rem
 - Node.js
 - React.js
 
-[Back To The Top](#health-and-wellness)
-
 ---
 
 ## How To Use
